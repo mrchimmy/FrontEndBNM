@@ -16,17 +16,17 @@ body{
     /* border-radius:0px 0px 10px 10px ; */
 }
 .navbar-container {
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     text-align: center;
 }
 .navbar-icon {
     padding: 5px 30px 3px 3px;
 }
 .navbar-text-container {
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 4px;
     display: flex;
     align-items: center;
@@ -49,14 +49,14 @@ body{
 .navbar-login-container {
     position: absolute;
     right: 0;
-    border: 1px solid blue;
+    border: 0px solid blue;
     padding: 1.2em;
     display: flex;
 }
 
 .navbar-login{
     position: relative;
-    border: 1px solid greenyellow;
+    border: 0px solid greenyellow;
     border-radius: 10px;
     background-color: #3FD83F;
     filter: brightness(110%);

@@ -1,3 +1,17 @@
 .store{
     background-color: #FFA600 ;
 }
+.header {
+    border: 1px solid black;
+    width: 100%;
+    height: 50em;
+}
+.header-container {
+    border: 1px solid blue;
+    width: 70%;
+    height: 30em;
+    margin: 5em 10em 0em 10em;
+}
+.server-title {
+    border: 1px solid black;
+}
