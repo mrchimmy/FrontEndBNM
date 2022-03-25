@@ -5,14 +5,14 @@
 }
 body{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     font-family: 'Krub', sans-serif;
 }
 /* Navbar */
 .navbar {
     border: 0px solid blue;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #F0F0F0;
     /* border-radius:0px 0px 10px 10px ; */
 }
 .navbar-container {
