@@ -1,51 +1,77 @@
 .header{
-    border: 2px solid black;
+    border: 1px solid black;
     width: 100%;
+    height: 70vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.header-container {
+    border: 1px solid blue;
+    width:50%;
+    height: 70vh;
+    
+}
+.login-container {
+    border: 1px solid cyan;
+    width:50%;
+    height: 70vh;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-}
-.header-container {
-    border: 1px solid cyan;
-    border-radius: 10px ;
-    width: 40%;
-    background-color: #F0F0F0;
 
 }
-.header-title {
-    font-size: 6vh;
-    margin-bottom: 2vh;
-}
-form.login-form {
-    display: flex;
-    flex-direction: column;
-}
-.login-label {
-    font-size: 2.3vh;
+.login-box {
+    border: 0px solid red;
+    width: 60%;
+    height: 50vh;
+    display: block;
+    align-items: center;
+    box-shadow: 9px 9px 6px #DFE1DF;
 }
 .login-form {
-    margin: 3vh 3vh 3vh 3vh;
-
+    width: 70%;
+    border: 0px solid yellow;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    margin-top: 2vh;
+}
+.login-title p {
+    font-size: large;
+}
+.login-label p{
+    font-size: 2vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 .login-input {
-    box-sizing: border-box;
-    border-radius: 7px;
-    padding: 20px;
-    border: none;
-    outline: 0;
-}
-.login-btn{
-    font-size: 2vh;
-    margin-top: 2vh;
-    padding: 6px;
+    width: 91%;
+    padding: 1.7vh;
+    font-size: 20px;
+    display: flex;
+    outline: none;
     border-radius: 10px;
+    border: 1px solid gainsboro
+}
+.login-btn {
+    width: 30%;
+    margin-top: 2vh;
+    padding: 1.6vh;
+    font-size: 1em;
     border: none;
-    background-color: #12CA12;
-    cursor: pointer;
+    background-color: cornflowerblue;
+    border-radius:7px ;
+    color: #FFFFFF;
+    display: flex;
+    justify-items: left;
+    justify-content: center;
+    text-align: center;
 }
 .login-btn:hover{
-
-    background-color: #00FF00;
+    background-color: #5289EC;
+    cursor: pointer;
 }
-
