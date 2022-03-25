@@ -7,7 +7,7 @@
 }
 .header-body {
     border:0px solid wheat ;
-    background-image:url('../image/backgroud.png');
+    background-image:url('/src/image/backgroud.png');
     width: 100%;
     height: 45em;
     position: relative;
