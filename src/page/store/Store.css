@@ -8,10 +8,22 @@
 }
 .header-container {
     border: 1px solid blue;
-    width: 70%;
+    width: 60%;
     height: 30em;
     margin: 5em 10em 0em 10em;
 }
 .server-title {
     border: 1px solid black;
+}
+.server-box {
+    border: 1px solid red;
+    width: 48%;
+    height: 25%;
+    margin: 5px 0px 0px 6px;
+    /* padding: 2vh; */
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2vh;
 }
