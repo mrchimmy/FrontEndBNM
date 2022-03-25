@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+*{
+    margin: 0 ;
+    position: relative;
+}
+body{
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: 'Krub', sans-serif;
+}
+/* Navbar */
+.navbar {
+    border: 0px solid blue;
+    width: 100%;
+    background-color: aliceblue;
+    /* border-radius:0px 0px 10px 10px ; */
+}
+.navbar-container {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-icon {
+    padding: 5px 30px 3px 3px;
+}
+.navbar-text-container {
+    border: 1px solid black;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.navbar-text  {
+    border: 0px solid wheat;
+    border-radius: 15px;
+    position: relative;
+    color: #2A2A29;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 2.1vh;
+}
+/* Navbar End*/
+/* Login */
+
+.navbar-login-container {
+    position: absolute;
+    right: 0;
+    border: 1px solid blue;
+    padding: 1.2em;
+    display: flex;
+}
+
+.navbar-login{
+    position: relative;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    background-color: #3FD83F;
+    filter: brightness(110%);
+    padding: 7px;
+    font-size: 2.1vh;
+    text-decoration: none;
+    color: #2A2A29;
+}
+
+/* Login End*/

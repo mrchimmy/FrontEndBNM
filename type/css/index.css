@@ -1,42 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
-*{
-    margin: 0 ;
-    position: relative;
+.home {
+    background-color: #FFA600;
 }
-body{
-    background-color: whitesmoke;
-    font-family: 'Krub', sans-serif;
-}
-.navbar {
-    width: 100%;
-    background-color: black;
-    /* border: 1px solid black; */
-    border-radius:0px 0px 10px 10px ;
-}
-.navbar-container {
-    display:block;
-
-}
-.navbar-icon {
-    padding: 3px;
-}
-.navbar-text-container {
-    border: 0px solid cyan;
-    float: right;
-}
-.navbar-text  {
-    border: 0px solid wheat;
-    position: relative;
-    color: aliceblue;
-    padding: 21px;
-    float: right;
-    text-decoration: none;
-    font-size: 19px;
-}
-.navbar a:hover {
-    color: aquamarine;
-    text-decoration: overline;
-}
+/* header */
 .header{
     filter: brightness(90%);
 }
@@ -70,3 +35,4 @@ body{
     font-size: 4vh;
     padding: -1em 0em 0em 0em;
 }
+/* header END */
