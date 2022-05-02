@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "frontendbnm",
+  "description": "เป็นเว็บ FrontEnd ของ เซิฟมายคราฟพวกเราา",
+  "version": "0.0.1",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrchimmy/FrontEndBNM.git"
+  },
+  "author": "MrChimKy and Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrchimmy/FrontEndBNM/issues"
+  },
+  "homepage": "https://github.com/mrchimmy/FrontEndBNM#readme"
+}
